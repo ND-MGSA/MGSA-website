@@ -1,0 +1,108 @@
+body
+{
+    background-color: lavenderblush;
+    color: black;
+}
+
+h1, h2
+{
+    color: maroon;
+    margin: 0 0 0.25em 0;
+    font-size: xx-large;
+}
+section h2, article h2
+{
+    font-size: x-large;
+}
+section section h2, section article h2, article section h2, article article h2
+{
+    font-size: large;
+}
+
+p, .semantic-paragraph
+{
+    margin: 0.5em 0 0 0;
+}
+.semantic-paragraph p
+{
+    margin: 0;
+}
+.semantic-paragraph ul
+{
+    margin: 0.125em 0 0.125em 0;
+}
+
+dl
+{
+    margin: 0.5em 0 0 0;
+}
+dl dt
+{
+    font-weight: bold;
+    color: maroon;
+}
+
+body > section, body > article
+{
+    background-color: lavender;
+
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    padding: 2mm;
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+}
+
+section section, section article, article section, article article
+{
+    margin-left: 1em;
+    margin-top: 0.125em;
+    border-left: solid;
+    border-left-width: thin;
+    padding-left: 2mm;
+}
+
+
+body > header
+{
+    text-align: center;
+}
+
+body > footer
+{
+    font-size: smaller;
+    text-align: center;
+}
+body > footer nav ul
+{
+    display: block;
+    padding: 0;
+    width: 100%;
+}
+body > footer nav ul li
+{
+    display: inline-block;
+    margin: 0 5em;
+    width: 15em;
+}
+
+iframe.gcalendar
+{
+    width: 100%;
+    height: 15cm;
+}
+
+ins, .ins-style
+{
+    color: red;
+    text-decoration: underline;
+}
+
+del, .del-style
+{
+    color: red;
+    text-decoration: line-through;
+}

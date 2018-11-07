@@ -1,0 +1,18 @@
+article.talk > header > p
+{
+    font-size: small;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    margin: 0 0 0 1.5em;
+}
+article.talk > header > h2
+{
+    margin: 0;
+}
+
+article.talk
+{
+    margin-top: 2mm;
+    margin-bottom: 2mm;
+}

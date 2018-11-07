@@ -1,0 +1,28 @@
+body {  margin-left : 5%;
+        margin-right: 5%;
+        font-family : Arial,Verdana,sans-serif;
+        /*border : 1px solid #99999;
+        padding : 15px;
+        margin : 5% 10%; */
+      }
+h1,h2 { margin-left : -2%; }
+img.rf { float : right;}
+.code { background-color : #e0ffe0;
+        padding : .3cm;
+        padding-left : .5cm;
+        border : 1px solid;
+        border-color : #808080; }
+blockquote { background-color : #e0ffff;
+             padding : .3cm;
+             border : 1px solid;
+             border-color : #808080; }
+.chess { background-color : #ffe0e0;
+         padding : .3cm;
+         border : 1px solid;
+         border-color : #808080;
+         }
+.abstract { background-color : #ccffcc;
+         padding : .3cm;
+         border : 1px solid;
+         border-color : #808080;
+         }

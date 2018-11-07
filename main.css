@@ -1,0 +1,8 @@
+@media (min-width: 200mm)
+{
+    body > header > h1:after
+    {
+	content: url("tetrahedron.svg") url("hexahedron.svg") url("octahedron.svg") url("dodecahedron.svg") url("icosahedron.svg");
+	display: block;
+    }
+}
